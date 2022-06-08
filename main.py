@@ -17,8 +17,9 @@ def newgame():
     print("Type 'R' for rock, 'P' for paper and 'S' for scissors:")
     your_choice = input("your choice:")
     while your_choice not in options:
-        print("wrong selection")
+        print("wrong selection.Ensure you enter the capital letters specified above")
         print("Type 'R' for rock, 'P' for paper and 'S' for scissors:")
+        print("")
         your_choice = input("your choice:")
 
     print("")    
